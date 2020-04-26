@@ -1,0 +1,5 @@
+
+<div class="slds-text-title_caps slds-m-bottom_small slds-m-top_large">Limited visible options</div>
+<div class="slds-text-title_caps-normal slds-m-bottom_x-small">Showing {{pagination.start}} - {{pagination.end}} of {{total}}</div>
+<ngl-pagination [(page)]="page" [total]="total" limit="5" boundaryNumbers="1" #pagination></ngl-pagination>Total:
+<input [(ngModel)]="total">
